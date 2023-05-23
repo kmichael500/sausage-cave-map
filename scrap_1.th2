@@ -24,7 +24,7 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
+line wall -subtype invisible
   391.0 -143.5
   390.5 -146.5 392.0 -150.0 384.0 -152.5
   376.0 -155.0 360.0 -149.5 350.5 -150.0

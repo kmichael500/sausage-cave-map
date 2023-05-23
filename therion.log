@@ -127,7 +127,7 @@ S  1122.36 Sausage_5_19_23-Ap5@survey_1 ()
 ########## end of export maps & scraps selection ###############
 writing output/GD79 Sausage Cave Plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  22 MAY 2023 23:36
+This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  22 MAY 2023 23:39
 **data.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
@@ -154,7 +154,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  22 MAY 2023 23:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  22 MAY 2023 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -178,7 +178,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
 pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
 pfb>
-Output written on data.pdf (1 page, 292090 bytes).
+Output written on data.pdf (1 page, 291894 bytes).
 PDF statistics:
  216 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams
@@ -202,7 +202,7 @@ S  1122.36 Sausage_5_19_23-Ap5@survey_1 ()
 ########## end of export maps & scraps selection ###############
 writing output/GD79 Sausage Cave Plan.svg ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  22 MAY 2023 23:36
+This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  22 MAY 2023 23:39
 **data.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
@@ -243,7 +243,7 @@ S  1122.36 Sausage_5_19_23-Ap5@survey_1 ()
 ########## end of export maps & scraps selection ###############
 writing output/GD79 Sausage Cave Plan Atlas.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  22 MAY 2023 23:36
+This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  22 MAY 2023 23:39
 **data.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
@@ -270,7 +270,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making atlas ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  22 MAY 2023 23:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  22 MAY 2023 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -295,7 +295,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb>
-Output written on data.pdf (20 pages, 337588 bytes).
+Output written on data.pdf (20 pages, 337383 bytes).
 PDF statistics:
  711 PDF objects out of 1000 (max. 8388607)
  522 compressed objects within 6 object streams
