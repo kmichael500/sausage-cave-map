@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>cave</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript">
+function xTree(node)
+{
+  var fsub = true;
+  var show = false;
+  var last = node.length;
+  var all = document.getElementsByTagName("tr");
+  for(i = 1; i < all.length; i++) {
+    if ((all[i].id.length > node.length) && (all[i].id.substr(0, node.length) == node)) {
+      if (fsub) {
+        fsub = false;
+        show = (all[i].style.display == "none");
+        last = all[i].id.lastIndexOf(".");
+      }
+      if (show) {
+        if (all[i].id.lastIndexOf(".") == last)
+        all[i].style.display = "";
+      } else {
+        all[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+<style type="text/css">
+body {font-family: Verdana, Helvetica, Arial, sans-serif; line-height: 1.5;}
+table {font-size:80%; border-spacing: 0px;}
+th {border-bottom:2px solid #a7a9aa; padding-left:8px; padding-right:8px; padding-top:0px; padding-bottom:1px;}
+td {border-bottom:1px solid #a7a9aa; padding-left:8px; padding-right:8px; padding-top:0px; padding-bottom:0px;}
+</style>
+</head>
+<body>
+<table>
+<tr><th align="left">Comment</th><th align="right">Explored</th><th align="left">Survey</th><th align="left">Station</th></tr>
+<tr id=""><td align="left">goes to small room \\par with dig lead heading NE</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A1</td></tr>
+<tr id=""><td align="left">goes to small room</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A1</td></tr>
+<tr id=""><td align="left">climbdown connects to other hole</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A6</td></tr>
+<tr id=""><td align="left">climbdown connects to other hole</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A7</td></tr>
+<tr id=""><td align="left">in-feeder flowing during flood pulse</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A7</td></tr>
+<tr id=""><td align="left">hole at bottom of canyon goes to rimstone pools</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A14</td></tr>
+<tr id=""><td align="left">continues as canyon, Ashley saw orb weavers</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A10</td></tr>
+<tr id=""><td align="left">canyon lead good</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">B1</td></tr>
+<tr id=""><td align="left">canyon lead good</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">B1</td></tr>
+<tr id=""><td align="left">lead 5 ft up in canyon</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A18</td></tr>
+<tr id=""><td align="left">very tight canyon needs technical digging</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A36</td></tr>
+<tr id=""><td align="left">tight canyon lead</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A30</td></tr>
+<tr id=""><td align="left">continues  as canyon turns to the right has a little air</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A28</td></tr>
+<tr id=""><td align="left">canyon probably goes to dome and verry tight</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A27</td></tr>
+<tr id=""><td align="left">tight canyon, requires technical digging, probably NGL</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A27.2</td></tr>
+<tr id=""><td align="left">high lead 20 ft up, bomber rock, decent</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A27.2</td></tr>
+<tr id=""><td align="left">very tight canyon technical dig NGL</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A28</td></tr>
+<tr id=""><td align="left">tight canyon</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A30</td></tr>
+<tr id=""><td align="left">joint controlled  canyon TT</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A45</td></tr>
+<tr id=""><td align="left">dig NGL</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A48.2</td></tr>
+<tr id=""><td align="left">gets TT on chest sideways but looks like turns left and gets bigger. Wouldn't take long to open up. Did not notice much air. Smells like urine</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A48.5</td></tr>
+<tr id=""><td align="left">no air, little bit of popcorn, couldb maybe dig NGL</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A48.4</td></tr>
+<tr id=""><td align="left">room is way colder, hitting ashley in face, 1T 2W, can keep chest mostly dry, turned on like faucet during pulse, can keep most fly, dry</td><td align="right">&nbsp;</td><td align="left">GD79 Sausage Cave</td><td align="left">A45</td></tr>
+</table>
+</body>
+</html>
