@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 243.75m (surface 0.00m, duplicated 0.00m)\nvertical range: 43.33m (from A1@survey_1 at 1160.00m to A49@survey_1 at 1116.67m)\nnorth-south range: 47.60m (from A48.4@survey_1 at 3924642.37m to A4@survey_1 at 3924594.77m)\neast-west range: 61.04m (from A27.2@survey_1 at 626004.70m to A48.4@survey_1 at 625943.66m)\nnumber of shots: 1071\nnumber of stations: 1072"
+xth_cp_data_tree_insert 24 1 1 survey_1 survey_1 "GD79 Sausage Cave" "GD79 Sausage Cave" "length: 243.75m (surface 0.00m, duplicated 0.00m)\nvertical range: 43.33m (from A1@survey_1 at 1160.00m to A49@survey_1 at 1116.67m)\nnorth-south range: 47.60m (from A48.4@survey_1 at 3924642.37m to A4@survey_1 at 3924594.77m)\neast-west range: 61.04m (from A27.2@survey_1 at 626004.70m to A48.4@survey_1 at 625943.66m)\nnumber of shots: 1071\nnumber of stations: 1072"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert map 0 1326X1 p1 1 map_1 map_1@survey_1 "" ""
+xth_cp_map_tree_insert map 1 1327X1 1326X1 2 low low@survey_1 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 244 7
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1684811550
+

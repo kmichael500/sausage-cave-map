@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -413.5 -624.0 2651.0 2062.5
+##XTHERION## xth_me_area_adjust -427.5 -624.0 2651.0 2112.0
 ##XTHERION## xth_me_area_zoom_to 200
 
 # 2023.05.22 created by TopoDroid v. 6.1.43
@@ -107,13 +107,6 @@ line wall -reverse on -subtype moonmilk
   smooth off
 endline
 
-point 343.33 89.51 label -text "moonmilk wall"
-
-line arrow
-  375.72 81.61
-  408.03 50.8
-endline
-
 point 392.92 -74.55 debris
 
 line wall
@@ -178,7 +171,7 @@ line wall -reverse on
   smooth off
 endline
 
-point 234.35 156.83 continuation -text "goes to small room \\par with dig lead heading NE"
+point 37.349999999999994 129.83 continuation -text "goes to small room \\par with dig lead heading NE"
 
 line wall -reverse on
   353.42 64.08
@@ -1923,6 +1916,16 @@ point 943.51 205.71 clay
 
 point 1067.50 265.96 clay
 
+line arrow
+  1190.0 259.0
+  1180.5 226.5
+endline
+
+line arrow
+  1007.0 292.0
+  1000.0 259.0
+endline
+
 line wall
   1067.89 288.69
   1043.28 293.78 1026.63 286.33 1017.63 279.35
@@ -2638,7 +2641,7 @@ point 702.82 394.50 gradient -orientation 280.93 -scale xs
 
 point 682.78 421.32 gradient -orientation 232.22 -scale xs
 
-point 624.0 698.0 label -text "Batwurst Canyon"
+point 569.5 683.0 label -text "Batwurst Canyon" -scale xl
 
 line wall -reverse on
   580.22 400.02
@@ -2888,7 +2891,7 @@ point 850.77 919.98 clay
 
 point 786.86 760.42 water-drip
 
-point 668.08 902.36 continuation -text "hole at bottom of canyon goes to rimstone pools"
+point 862.58 757.86 continuation -text "hole at bottom of canyon goes to rimstone pools"
 
 line wall
   844.82 873.69
@@ -2985,7 +2988,13 @@ endline
 
 point 804.36 1054.60 helictite
 
-point 814.61 925.21 air-draught -orientation 199.15
+line arrow
+  858.0 777.0
+  855.5 787.5 815.5 923.5 815.5 923.5
+  smooth off
+endline
+
+point 874.11 1009.71 air-draught -orientation 220.4
 
 point 769.82 641.42 air-draught -orientation 195.77
 
@@ -3367,11 +3376,11 @@ line water-flow:intermittent
   smooth off
 endline
 
-point 420.22 138.19 continuation -text "continues as canyon, Ashley saw orb weavers"
+point 381.72 150.19 continuation -text "continues as canyon, Ashley saw orb weavers"
 
 point 1130.73 960.87 height -value "23 ft"
 
-point 865.09 688.41 label -text "bat varnish on walls"
+point 903.59 688.41 label -text "bat varnish on walls"
 
 point 693.82 525.82 guano
 
@@ -3730,7 +3739,7 @@ line wall
   smooth off
 endline
 
-point 1520.69 1128.89 continuation -text "very tight canyon needs technical digging"
+point 1539.69 1158.89 continuation -text "very tight canyon needs technical digging"
 
 line rock-border -close on
   1775.17 1070.44
@@ -4370,8 +4379,6 @@ line pit
   smooth off
 endline
 
-point 2160.66 947.51 label -text "25"
-
 line wall
   2154.92 925.54
   2159.13 922.42 2162.27 917.68 2165.48 915.78
@@ -4445,9 +4452,9 @@ line pit
   smooth off
 endline
 
-point 2226.61 1057.72 continuation -text "continues  as canyon turns to the right has a little air"
+point 2219.61 1052.72 continuation -text "uppder canyon continues to the right, has air"
 
-point 2256.64 783.15 continuation -text "canyon probably goes to dome and verry tight"
+point 2189.64 795.15 continuation -text "canyon probably goes to dome and verry tight"
 
 line pit
   2241.02 855.5
@@ -4467,7 +4474,9 @@ line wall -reverse on
   smooth off
 endline
 
-point 2317.84 1013.60 label -text "23 climbdown"
+point 2293.0 985.0 height -value "25 ft"
+
+point 2376.84 1010.5999999999999 label -text "climbdown"
 
 line arrow
   2331.26 1009.0
@@ -4480,7 +4489,7 @@ point 1277.54 966.24 water-flow -orientation 36.78
 
 point 1538.11 1046.07 water-flow -orientation 83.75
 
-point 1568.84 977.00 label -text "16 rappel"
+point 1589.03 1048.34 height -value "16 ft"
 
 point 1058.21 1063.94 station -name "A15"
 
@@ -4899,9 +4908,12 @@ endline
 
 point 2323.27 669.84 popcorn
 
-point 2353.76 819.28 label -text "cave harvestman"
+point 2442.76 819.28 label -text "cave harvestman in lower canyon"
 
-point 2341.92 923.73 label -text "bat varnish everywhere"
+point 2375.92 884.73 label -text "bat varnish on walls"
+
+line arrow
+endline
 
 line arrow
   2136.41 869.71
@@ -5357,7 +5369,12 @@ line wall
   smooth off
 endline
 
-point 1853.03 935.32 label -text "small popcorn intermittent "
+line arrow
+  1755.0 884.0
+  1757.0 898.0 1762.0 913.0 1763.0 917.0
+endline
+
+point 1753.03 864.32 label -text "small popcorn intermittent "
 
 # actually popcorn wall
 
@@ -5654,8 +5671,6 @@ line ceiling-step
   smooth off
 endline
 
-point 1462.17 1220.81 label -text "can flood to knee level and neck level"
-
 line border -id Ap-a45 -close on -visibility off
   1287.91 1277.91
   1288.09 1278.3 1288.27 1278.7 1288.46 1279.1
@@ -5678,7 +5693,15 @@ point 1324.30 1259.48 clay
 
 point 1281.49 1286.56 pebbles
 
-point 1236.84 1351.49 label -text "cave crickets in canyon"
+point 1458.0 1285.5 label -text "mud flood line at 3 ft and debris at 5 ft"
+
+point 1169.84 1266.99 label -text "cave crickets in canyon"
+
+line arrow
+  -144.0 1500.0
+  -138.0 1510.0 -97.0 1550.0 -97.0 1550.0
+  smooth off
+endline
 
 line wall
   1321.72 1268.82
@@ -6159,7 +6182,7 @@ line wall
   smooth off
 endline
 
-point 655.61 1508.72 continuation -text "joint controlled  canyon TT"
+point 650.11 1510.22 narrow-end
 
 line rock-border -close on
   572.73 1485.86
@@ -6305,7 +6328,7 @@ line rock-border -close on
   533.12 1472.08
 endline
 
-point 1055.95 1302.19 label -text "Run to the Entrance"
+point 1134.45 1431.69 label -text "Run to the Entrance" -scale xl
 
 line wall
   521.8 1513.35
@@ -6533,7 +6556,7 @@ endline
 
 point 538.18 1340.25 scallop
 
-point 1822.80 975.01 label -text "fossil"
+point 1857.8 925.01 label -text "shark tooth"
 
 point 417.77 1428.81 pebbles
 
@@ -6955,7 +6978,7 @@ line rock-border -close on
   334.99 1606.73
 endline
 
-point 345.02 1621.10 continuation -text "dig NGL"
+point 341.0 1616.5 low-end
 
 line wall
   283.47 1641.61
@@ -7168,79 +7191,6 @@ line rock-border -close on
   142.54 1710.83
   131.17 1712.02
   129.39 1694.55
-endline
-
-line rock-border -close on
-  137.54 1647.51
-  146.32 1648.76
-  152.87 1656.32
-  141.94 1658.9
-  129.85 1654.47
-  133.31 1647.0
-  137.54 1647.51
-endline
-
-line rock-border -close on
-  139.32 1729.22
-  139.72 1720.3
-  148.42 1729.71
-  149.83 1743.1
-  139.32 1729.22
-endline
-
-line rock-border -close on
-  95.03 1748.19
-  94.84 1736.94
-  102.93 1735.37
-  103.28 1747.04
-  95.03 1748.19
-endline
-
-line rock-border -close on
-  107.92 1737.77
-  116.88 1741.84
-  110.18 1746.1
-  107.92 1737.77
-endline
-
-line rock-border -close on
-  120.36 1744.61
-  128.96 1744.58
-  120.99 1749.93
-  120.36 1744.61
-endline
-
-line rock-border -close on
-  117.07 1728.73
-  122.8 1721.78
-  127.61 1732.99
-  123.83 1739.55
-  117.07 1728.73
-endline
-
-line rock-border -close on
-  103.16 1696.82
-  109.43 1690.42
-  112.31 1699.65
-  109.55 1708.71
-  103.16 1696.82
-endline
-
-line rock-border -close on
-  107.36 1717.43
-  115.9 1711.45
-  115.81 1720.96
-  107.36 1717.43
-endline
-
-line rock-border -close on
-  159.73 1728.72
-  157.42 1718.97
-  164.27 1716.43
-  170.23 1726.34
-  172.14 1738.19
-  165.7 1738.58
-  159.73 1728.72
 endline
 
 line rock-border -close on
@@ -8642,7 +8592,7 @@ point 192.96 1524.69 clay
 
 point 252.40 1515.66 clay
 
-point -127.54 1552.95 continuation -text "gets TT on chest sideways but looks like turns left and gets bigger. Wouldn't take long to open up. Did not notice much air. Smells like urine"
+point -145.04000000000002 1473.45 continuation -text "gets TT on chest sideways but looks like turns left and gets bigger. Wouldn't take long to open up. Did not notice much air. Smells like urine"
 
 line rock-border -close on
   -202.91 1832.53
@@ -9001,7 +8951,7 @@ line rock-border -close on
   -224.58 1887.02
 endline
 
-point -282.80 1862.37 continuation -text "no air, little bit of popcorn, couldb maybe dig NGL"
+point -296.8 1981.37 continuation -text "no air, little bit of popcorn, couldb maybe dig NGL"
 
 line wall
   36.57 1660.92
@@ -9063,14 +9013,9 @@ point 8.38 1637.55 gradient -orientation 84.21
 
 point 23.24 1540.94 water-flow -orientation 83.15
 
-point 440.62 1579.21 label -text "Pelvis Pulverizer"
+point 463.62 1578.21 label -text "Evac Room" -scale xl
 
-line arrow
-  452.61 1552.51
-  445.02 1502.44
-endline
-
-point 628.55 1298.19 continuation -text "room is way colder, hitting ashley in face, 1T 2W, can keep chest mostly dry, turned on like faucet during pulse, can keep most fly, dry"
+point 628.55 1298.19 continuation -text "1T 2W can keep chest mostly dry, was a faucet during flood pulse”
 
 point 471.36 1371.43 bones
 
@@ -9082,8 +9027,6 @@ line arrow
 endline
 
 point 580.80 1327.95 air-draught -orientation 301.14
-
-point 314.86 1407.22 label -text "Evac Room"
 
 point 829.21 1019.61 station -name "A14"
 
