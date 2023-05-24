@@ -1,0 +1,139 @@
+layout working
+	copy with_lineplot
+	copy default
+	copy with_lead_descriptions
+endlayout
+
+layout working_altitude
+	copy working
+	copy with_altitude
+endlayout
+
+
+layout altitude
+	copy default
+	copy with_altitude
+endlayout
+
+layout with_lineplot
+	debug station-names
+	code metapost
+		def l_survey_cave (expr p) =
+			pickup PenC;
+			draw p withcolor 0.5red;
+		enddef;
+	endcode
+endlayout
+
+layout no_labels
+	copy default
+	symbol-hide point label
+	symbol-hide line arrow
+	symbol-hide point continuation
+endlayout
+
+layout no_labels_altitude
+	copy no_labels
+	copy with_altitude
+endlayout
+
+layout with_altitude
+	color map-fg altitude
+endlayout
+
+layout without_lineplot
+	symbol-hide group centerline
+endlayout
+
+layout with_lead_descriptions
+	code metapost
+		
+		def p_continuation(expr pos,theta,sc,al) =
+			p_continuation_UIS(pos,theta,sc,al);
+			if known(ATTR__text) and picture(ATTR__text):
+				push_label_fill_color(1.0, 0.9, 0.8);
+				p_label.urt(ATTR__text,(.5u,-.25u) transformed T,0.0,8);
+				pop_label_fill_color;
+			fi;
+		enddef;
+	endcode
+endlayout
+
+layout default
+	units imperial
+	legend on
+	scale 1 100
+	symbol-set NSS
+	doc-author "Michael Ketzner"
+	doc-title "GD79 Sausage Cave Plan"
+	
+	symbol-assign line ceiling-step UIS
+	
+	symbol-colour area blocks  [41 41 41]
+	symbol-colour line rock-border [41 41 41]
+	symbol-colour line rock-edge [41 41 41]
+	symbol-colour group water  [22 22 95]
+	
+	# Adjust density of Clay
+	# used to be shifted ((i,j) randomized 1.3u);
+	code metapost
+		def a_clay (expr p) =
+			density:=1.5;
+			random:=1.3;
+			T:=identity;
+			pickup PenC;
+			path q, qq; q = bbox p;
+			picture tmp_pic;
+			uu := max(u, (xpart urcorner q - xpart llcorner q)/100, (ypart urcorner q - ypart     llcorner q)/100);
+			tmp_pic := image(
+			for i = xpart llcorner q step density*uu until xpart urcorner q:
+			for j = ypart llcorner q step density*uu until ypart urcorner q:
+			qq := ((-.25u,0){up}..origin{down}..{up}(0.25u,0)) randomized 0 shifted ((i,j) randomized 0uu);
+			# qq := ((-.25u,0){up}..origin{down}..{up}(0.25u,0)) randomized (uu/15) shifted ((i,j) randomized 1.3uu);
+			
+			if xpart (p intersectiontimes qq) < 0:
+				thdraw qq withcolor (129/255, 63/255, 11/255);
+			fi;
+			endfor;
+			endfor;
+			);
+			clip tmp_pic to p;
+			draw tmp_pic;
+		enddef;
+		
+		# clay point
+		def p_clay (expr pos,theta,sc,al) =
+			U:=(.3u,.3u);
+			T:=identity aligned al rotated theta scaled sc shifted pos;
+			pickup PenC;
+			thdraw (-.3u,0){up}..origin{down}..{up}(0.3u,0) withcolor (129/255, 63/255, 11/255);
+		enddef;
+		
+		# clay wall
+		def l_wall_clay (expr P) =
+			T:=identity;
+			cas := 0;
+			dlzka := arclength P;
+			mojkrok:=adjust_step(dlzka, .5u);
+			pickup PenC;
+			q := (-0.15u,0){up}..{down}origin..{up}(0.15u,0);
+			forever:
+			t := arctime (cas + mojkrok/2) of P;
+			thdraw q shifted (point t of P + .25u * unitvector(thdir(P,t) rotated -90)) withcolor (129/255, 63/255, 11/255);
+			cas := cas + mojkrok;
+			exitif cas > dlzka - (2*mojkrok/3); % for rounding errors
+			endfor;
+			pickup PenA;
+			thdraw P;
+		enddef;
+		
+	endcode
+	
+	# symbol-colour area clay [.5, 0.247, 0.043]  #ineffective?
+	# symbol-colour point clay [50, 25., 4]  #ineffective?
+	
+	map-header 90 35 ne
+	legend-columns 3
+	#legend-width 10 cm
+	
+endlayout

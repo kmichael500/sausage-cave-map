@@ -41,7 +41,10 @@ survey survey_1 -title "GD79 Sausage Cave"
 		
 		station ent "main ent." entrance
 		cs long-lat
-		fix ent -85:36:43.0992 35:27:24.8004 1160
+		
+		#1209 ft elevation
+		#368.5032 meters elevation
+		fix ent -85:36:43.0992 35:27:24.8004 368.5032
 		
 		equate ent A1
 		
