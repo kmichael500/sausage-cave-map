@@ -1,6 +1,6 @@
 encoding  utf-8
 
-select map_1@survey_1
+select map_1@survey
 source survey.th
 
 input "layout.th"
