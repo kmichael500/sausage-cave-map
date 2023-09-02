@@ -5,7 +5,6 @@ source SausageCave_Master.th
 input "Templates_DeCelle.thconfig"
 
 layout defaults
-  cs lat-long
   north true
   doc-author "Michael Ketzner"
   doc-title "GD79 Sausage Cave
@@ -86,5 +85,7 @@ export map -projection plan -layout workingPlan -o "output/WORKING_Plan.pdf"
 
                                  # Other #
 
+export map -format kml
+export map -format esri -o "output/SausageArc"
 #export map -format xvi -projection plan -o "output/plan.xvi"
 #export map -format xvi -projection elevation -o "output/elevation.xvi"
