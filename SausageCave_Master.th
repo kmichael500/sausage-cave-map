@@ -1,30 +1,32 @@
+encoding  utf-8
 # 2022.10.12 created by TopoDroid v 5.1.40
 
 survey survey -title "GD79 Sausage Cave"
-	
-	input "./trip_1/trip_1_survey.th"
-	input "./trip_2/trip_2_survey.th"
-	map map_1
-		trip_1_map@trip_1_survey
-		trip_2_map@trip_2_survey
-	endmap
-	
-	centerline
-		units length feet
-		units compass clino degrees
-		data normal from to length compass clino
-		
-		station ent "main ent." entrance
-		cs long-lat
-		
-		#1209 ft elevation
-		#368.5032 meters elevation
-		fix ent -85:36:43.0992 35:27:24.8004 368.5032
-		
-		equate ent A1@trip_1_survey
-		equate A25@trip_1_survey A25@trip_2_survey
-		
-	endcenterline
-	
-	
+  
+  input "./trip_1/trip_1_survey.th"
+  input "./trip_2/trip_2_survey.th"
+  map map_1
+    trip_1_map@trip_1_survey
+    trip_2_map@trip_2_survey
+  endmap
+  
+  centerline
+    units length feet
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    station ent "main ent." entrance
+    cs lat-long
+    
+    #1209 ft elevation
+    #368.5032 meters elevation
+    fix ent -85.611972 35.456889 368.5032
+    
+    equate ent A1@trip_1_survey
+    equate A25@trip_1_survey A25@trip_2_survey
+    
+  endcenterline
+  
+  
 endsurvey
+
