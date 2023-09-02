@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -427.5 -624.0 2651.0 2112.0
+##XTHERION## xth_me_area_adjust -430.0 -626.0 2653.0 2114.0
 ##XTHERION## xth_me_area_zoom_to 100
 
 # 2023.05.22 created by TopoDroid v. 6.1.43
@@ -2931,7 +2931,9 @@ point 762.33 920.60 clay
 
 point 850.77 919.98 clay
 
-point 786.86 760.42 water-drip
+point 668.0 806.0 water-drip
+
+point 782.86 755.42 water-drip
 
 point 862.58 757.86 continuation -text "hole at bottom of canyon goes to rimstone pools"
 

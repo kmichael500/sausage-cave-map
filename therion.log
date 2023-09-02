@@ -130,7 +130,7 @@ S   332.37 Sausage_7_27_23-1p1@trip_2_survey.survey ()
 writing output/WORKING_Plan.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  2 SEP 2023 09:06
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  2 SEP 2023 12:34
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -154,8 +154,8 @@ rvey.survey] [35] [36] [37] [38] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp
  
 Here is how much of MetaPost's memory you used:
  65764 strings using 1612202 characters
- 3343868 bytes of node memory
- 1887 symbolic tokens
+ 3352092 bytes of node memory
+ 1888 symbolic tokens
  9i,82n,20p,1211b,5f stack positions out of 16i,98n,22p,1483b,6f
 89 output files written: data-patt.1 .. data.75
 
@@ -164,7 +164,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  2 SEP 2023 09:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  2 SEP 2023 12:34
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -184,7 +184,7 @@ Here is how much of TeX's memory you used:
  12i,5n,7p,337b,78s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program F
 iles (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 505672 bytes).
+Output written on data.pdf (1 page, 505172 bytes).
 PDF statistics:
  282 PDF objects out of 1000 (max. 8388607)
  144 compressed objects within 2 object streams
@@ -194,73 +194,8 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-processing projection elevation ... done
-
-
-############### export maps & scraps selection #################
-S     -.-- @ ()
-########## end of export maps & scraps selection ###############
-writing output/WORKING_ProfProj.pdf ...
-####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  2 SEP 2023 09:06
-**data.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
-(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[1] [2] [3] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] [5] [6] [7] [8] [9] [10]
-[11] [12] [13] [14] )
- 
-Here is how much of MetaPost's memory you used:
- 13274 strings using 408477 characters
- 2914108 bytes of node memory
- 1881 symbolic tokens
- 9i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
-28 output files written: data-patt.1 .. data.14
-
-
-#################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  2 SEP 2023 09:06
-entering extended mode
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
-(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
-(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 61 numeric registers used out of 32768
-
-[1] ) 
-Here is how much of TeX's memory you used:
- 286 strings out of 94604
- 3963 string characters out of 1142524
- 150633 words of memory out of 5120361
- 1938 multiletter control sequences out of 15000+50000
- 20080 words of font info for 63 fonts, out of 1000000 for 2000
- 1416 hyphenation exceptions out of 5000
- 12i,5n,7p,238b,74s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program F
-iles (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 69122 bytes).
-PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
-done
-writing output/leads.html ... done
-writing output/plan.xvi ... done
-writing output/elevation.xvi ... done
 writing xtherion file ... done
-compilation time: 6 sec
+compilation time: 4 sec
 
 
 ######################### loop errors ##########################
