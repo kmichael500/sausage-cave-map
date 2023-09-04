@@ -20,7 +20,7 @@ survey survey -title "GD79 Sausage Cave"
     
     #1209 ft elevation
     #368.5032 meters elevation
-    fix ent 35.456889 -85.611972 368.5032
+    fix ent 35.457009 -85.612167 355.3
     
     equate ent A1@trip_1_survey
     equate A25@trip_1_survey A25@trip_2_survey

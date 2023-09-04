@@ -87,5 +87,6 @@ export map -projection plan -layout workingPlan -o "output/WORKING_Plan.pdf"
 
 export map -format kml
 export map -format esri -o "output/SausageArc"
+export model -format esri -o "output/SausageArc"
 #export map -format xvi -projection plan -o "output/plan.xvi"
 #export map -format xvi -projection elevation -o "output/elevation.xvi"
