@@ -1,0 +1,45 @@
+# 2022.07.02 created by TopoDroid v 6.1.43
+
+survey trip_2_ian_survey -title "Sausage 7 27 23"
+	
+	
+	centerline
+		date 2022.07.29
+		team "Ian Flomm"
+		team "Alea Moore"
+		team "Laine Roberts"
+		units length feet
+		units compass clino degrees
+		data normal from to length compass clino
+		# extend auto
+		A6 O1 12.9 154.9 -3.2
+		O1 O2 5.4 43.4 -31.7
+		O2 O3 11.8 138.8 -11.6
+		O3 O4 22.9 2.0 -20.5
+		O4 O4A 24.9 4.0 -23.3
+		O4 O5 18.9 238.0 15.7
+		O5 O6 11.8 255.6 7.3
+		O6 O7 21.2 10.9 -35.6
+		O7 O8 11.5 55.3 6.0
+		
+		O8 O9 15.7 348.9 9.9
+		O8 O10 7.4 314.4 -14.3
+		O10 O11 15.9 212.1 -10.9
+		O11 O12 17.4 219.3 15.5
+		O12 O12A 9.8 253.5 -2.9
+		O12 O13 21.5 29.3 -45.0
+		O13 O14 3.0 320.8 -9.6
+		O14 O15 6.9 15.1 15.2
+		
+		O15 O16 8.4 322.6 -6.0
+		O16 O17 15.8 34.1 -22.6
+		O17 O18 5.0 316.6 28.5
+		O18 B1 9.7 44.9 0.4
+		
+		
+		
+		
+	endcenterline
+	
+	
+endsurvey

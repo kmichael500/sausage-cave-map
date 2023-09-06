@@ -90,3 +90,4 @@ export map -format esri -o "output/SausageArc"
 export model -format esri -o "output/SausageArc"
 #export map -format xvi -projection plan -o "output/plan.xvi"
 #export map -format xvi -projection elevation -o "output/elevation.xvi"
+export model -fmt survex -o "output/GD79 Sausage Cave Model.3d" -enable walls
