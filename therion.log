@@ -1,8 +1,8 @@
-therion 6.1.7+3bfbd5d+dev (2023-05-25)
-  - using Proj 9.2.0, compiled against 9.2.0
-checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
-checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
-configuration file: thconfig.thcfg
+therion 6.1.2 (2022-07-11)
+  - using Proj 9.0.0, compiled against 9.0.0
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: COMPILE.thconfig
 reading ... done
 reading source files ... done
 preprocessing database ... done
@@ -18,8 +18,8 @@ calculating station coordinates ... done
 average loop error: 0.90%
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.4.3
- 2> Copyright © 1990-2021 Olly Betts
+ 1> Survex 1.4.5
+ 2> Copyright (C) 1990-2021 Olly Betts
  3> 
  4> Survey contains 1649 survey stations, joined by 1650 shots.
  5> There are 4 loops.
@@ -110,67 +110,53 @@ calculating basic statistics ... done
 processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
-writing output/lineplots/GD79 Sausage Cave Model.3d ... done
-writing output/lineplots/GD79 Sausage Cave Model.ersi ... done
-writing output/lineplots/GD79 Sausage Cave Model.plt ... done
-writing output/lineplots/GD79 Sausage Cave Model.lox ...
 processing projection plan ... done
 average distortion: 0.10%
-...
-therion: warning -- Sausage_5_19_23-Ap2@trip_1_survey.survey -- multiple scrap outer outlines not supported yet
-...
-therion: warning -- Sausage_5_19_23-Ap5@trip_1_survey.survey -- multiple scrap outer outlines not supported yet
-.
-therion: warning -- Sausage_7_27_23-1p@trip_2_survey.survey -- multiple scrap outer outlines not supported yet
-.
-therion: warning -- Sausage_7_27_23-1p1@trip_2_survey.survey -- multiple scrap outer outlines not supported yet
-therion: warning -- Sausage_7_27_23-1p1@trip_2_survey.survey -- invalid scrap outline
- done
-writing output/lineplots/GD79 Sausage Cave KML.kml ... done
 
 
 ############### export maps & scraps selection #################
-M   338.55 map_1@survey ()
-M   344.62 low@trip_1_survey.survey ()
+M   338.43 map_1@survey ()
+M   344.38 low@trip_1_survey.survey ()
 S   367.87 Sausage_5_19_23-Ap@trip_1_survey.survey ()
 S   357.25 Sausage_5_19_23-Ap1@trip_1_survey.survey ()
 S   347.33 Sausage_5_19_23-Ap2@trip_1_survey.survey ()
 S   334.27 Sausage_5_19_23-Ap3@trip_1_survey.survey ()
 S   330.12 Sausage_5_19_23-Ap4@trip_1_survey.survey ()
-S   330.86 Sausage_5_19_23-Ap5@trip_1_survey.survey ()
+S   329.47 Sausage_5_19_23-Ap5@trip_1_survey.survey ()
 M   332.48 trip_2_map@trip_2_survey.survey ()
 S   332.58 Sausage_7_27_23-1p@trip_2_survey.survey ()
 S   332.37 Sausage_7_27_23-1p1@trip_2_survey.survey ()
 ########## end of export maps & scraps selection ###############
-writing output/maps/final/GD79 Sausage Cave Plan.pdf ...
+writing output/WORKING_Plan.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  31 JUL 2023 11:45
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  2 SEP 2023 12:55
 **data.mp
-(/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [1] [2] [3] [4]
 [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
 [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
 [Warning: scrap outline intersects itself in scrap Sausage_5_19_23-Ap2@trip_1_s
-urvey.survey] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
+urvey.survey] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25]
 [Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p1@trip_2_s
-urvey.survey] [25] [26] [27] [28] [29] [30] [31] [32] [33]
+urvey.survey] [26] [27] [28] [29] [30] [31] [32] [33] [34]
 [Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p@trip_2_su
 rvey.survey]
 [Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p@trip_2_su
-rvey.survey] [34] [35] [36] [37] (./mptextmp.mp) [38] [39] [40] [41] [42] [43]
-[44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58]
-[59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73]
-[74] [75] )
+rvey.survey] [35] [36] [37] [38] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp
+) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [39] [40]
+[41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
+[56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70]
+[71] [72] [73] [74] [75] )
  
 Here is how much of MetaPost's memory you used:
- 45833 strings using 1020281 characters
- 4974872 bytes of node memory
- 1880 symbolic tokens
- 9i,82n,16p,1211b,5f stack positions out of 16i,98n,20p,1483b,6f
+ 65764 strings using 1612202 characters
+ 3352092 bytes of node memory
+ 1888 symbolic tokens
+ 9i,82n,20p,1211b,5f stack positions out of 16i,98n,22p,1483b,6f
 89 output files written: data-patt.1 .. data.75
 
 
@@ -178,31 +164,27 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  31 JUL 2023 11:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  2 SEP 2023 12:55
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
  167 numeric registers used out of 32768
 
 [1] ) 
 Here is how much of TeX's memory you used:
- 393 strings out of 494594
- 5160 string characters out of 6146452
- 173141 words of memory out of 5000000
- 2048 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1416 hyphenation exceptions out of 8191
- 12i,5n,7p,337b,78s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
-pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
-pfb>
-Output written on data.pdf (1 page, 469415 bytes).
+ 392 strings out of 94604
+ 5126 string characters out of 1142524
+ 169988 words of memory out of 5138716
+ 2044 multiletter control sequences out of 15000+50000
+ 21229 words of font info for 66 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 12i,5n,7p,337b,78s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program F
+iles (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 505172 bytes).
 PDF statistics:
  282 PDF objects out of 1000 (max. 8388607)
  144 compressed objects within 2 object streams
@@ -212,435 +194,18 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-
-
-############### export maps & scraps selection #################
-M   338.55 map_1@survey ()
-M   344.62 low@trip_1_survey.survey ()
-S   367.87 Sausage_5_19_23-Ap@trip_1_survey.survey ()
-S   357.25 Sausage_5_19_23-Ap1@trip_1_survey.survey ()
-S   347.33 Sausage_5_19_23-Ap2@trip_1_survey.survey ()
-S   334.27 Sausage_5_19_23-Ap3@trip_1_survey.survey ()
-S   330.12 Sausage_5_19_23-Ap4@trip_1_survey.survey ()
-S   330.86 Sausage_5_19_23-Ap5@trip_1_survey.survey ()
-M   332.48 trip_2_map@trip_2_survey.survey ()
-S   332.58 Sausage_7_27_23-1p@trip_2_survey.survey ()
-S   332.37 Sausage_7_27_23-1p1@trip_2_survey.survey ()
-########## end of export maps & scraps selection ###############
-writing output/maps/final/GD79 Sausage Cave Plan (No Labels).pdf ...
+writing cave.kml ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  31 JUL 2023 11:45
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  2 SEP 2023 12:55
 **data.mp
-(/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
-[Warning: scrap outline intersects itself in scrap Sausage_5_19_23-Ap2@trip_1_s
-urvey.survey] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p1@trip_2_s
-urvey.survey] [23] [24] [25] [26] [27] [28] [29] [30]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p@trip_2_su
-rvey.survey]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p@trip_2_su
-rvey.survey] [31] [32] [33] (./mptextmp.mp) [34] [35] [36] [37] [38] [39] [40]
-[41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
-[56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] )
- 
-Here is how much of MetaPost's memory you used:
- 43528 strings using 952810 characters
- 4967928 bytes of node memory
- 1876 symbolic tokens
- 9i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
-84 output files written: data-patt.1 .. data.70
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp [1] )
+1 output file written: data.1
 
 
 #################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  31 JUL 2023 11:45
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
-(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 162 numeric registers used out of 32768
-
-[1] ) 
-Here is how much of TeX's memory you used:
- 388 strings out of 494594
- 5109 string characters out of 6146452
- 173141 words of memory out of 5000000
- 2043 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1416 hyphenation exceptions out of 8191
- 12i,5n,7p,337b,78s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
-pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
-pfb>
-Output written on data.pdf (1 page, 458672 bytes).
-PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 767 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
-done
-
-
-############### export maps & scraps selection #################
-M   338.55 map_1@survey ()
-M   344.62 low@trip_1_survey.survey ()
-S   367.87 Sausage_5_19_23-Ap@trip_1_survey.survey ()
-S   357.25 Sausage_5_19_23-Ap1@trip_1_survey.survey ()
-S   347.33 Sausage_5_19_23-Ap2@trip_1_survey.survey ()
-S   334.27 Sausage_5_19_23-Ap3@trip_1_survey.survey ()
-S   330.12 Sausage_5_19_23-Ap4@trip_1_survey.survey ()
-S   330.86 Sausage_5_19_23-Ap5@trip_1_survey.survey ()
-M   332.48 trip_2_map@trip_2_survey.survey ()
-S   332.58 Sausage_7_27_23-1p@trip_2_survey.survey ()
-S   332.37 Sausage_7_27_23-1p1@trip_2_survey.survey ()
-########## end of export maps & scraps selection ###############
-writing output/maps/final/GD79 Sausage Cave Plan (No Labels) (Altitude).pdf ...
-####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  31 JUL 2023 11:45
-**data.mp
-(/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
-[Warning: scrap outline intersects itself in scrap Sausage_5_19_23-Ap2@trip_1_s
-urvey.survey] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p1@trip_2_s
-urvey.survey] [23] [24] [25] [26] [27] [28] [29] [30]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p@trip_2_su
-rvey.survey]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p@trip_2_su
-rvey.survey] [31] [32] [33] (./mptextmp.mp) [34] (./mptextmp.mp) (./mptextmp.mp
-) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46]
-[47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61]
-[62] [63] [64] [65] [66] [67] [68] [69] [70] [71] )
- 
-Here is how much of MetaPost's memory you used:
- 43693 strings using 956775 characters
- 4967928 bytes of node memory
- 1877 symbolic tokens
- 10i,82n,19p,461b,5f stack positions out of 16i,98n,20p,487b,6f
-85 output files written: data-patt.1 .. data.71
-
-
-#################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  31 JUL 2023 11:45
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aaaaaac.dat>><<th_gour_aaaaaae.dat>><<
-th_gour_aaaaaag.dat>><<th_gour_aaaaaai.dat>><<th_gour_aaaaaba.dat>><<th_gour_aa
-aaabc.dat>><<th_gour_aaaaabg.dat>>)
-(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex) (./th_legend.tex))
-(./th_pages.tex)
- 177 numeric registers used out of 32768
- [1] ) 
-Here is how much of TeX's memory you used:
- 406 strings out of 494594
- 5279 string characters out of 6146452
- 179175 words of memory out of 5000000
- 2058 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1416 hyphenation exceptions out of 8191
- 12i,6n,7p,388b,78s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
-.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb>
-Output written on data.pdf (1 page, 471056 bytes).
-PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 903 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
-done
-
-
-############### export maps & scraps selection #################
-M   338.55 map_1@survey ()
-M   344.62 low@trip_1_survey.survey ()
-S   367.87 Sausage_5_19_23-Ap@trip_1_survey.survey ()
-S   357.25 Sausage_5_19_23-Ap1@trip_1_survey.survey ()
-S   347.33 Sausage_5_19_23-Ap2@trip_1_survey.survey ()
-S   334.27 Sausage_5_19_23-Ap3@trip_1_survey.survey ()
-S   330.12 Sausage_5_19_23-Ap4@trip_1_survey.survey ()
-S   330.86 Sausage_5_19_23-Ap5@trip_1_survey.survey ()
-M   332.48 trip_2_map@trip_2_survey.survey ()
-S   332.58 Sausage_7_27_23-1p@trip_2_survey.survey ()
-S   332.37 Sausage_7_27_23-1p1@trip_2_survey.survey ()
-########## end of export maps & scraps selection ###############
-writing output/maps/final/GD79 Sausage Cave Plan (Altitude).pdf ...
-####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  31 JUL 2023 11:45
-**data.mp
-(/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
-[Warning: scrap outline intersects itself in scrap Sausage_5_19_23-Ap2@trip_1_s
-urvey.survey] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p1@trip_2_s
-urvey.survey] [25] [26] [27] [28] [29] [30] [31] [32] [33]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p@trip_2_su
-rvey.survey]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p@trip_2_su
-rvey.survey] [34] [35] [36] [37] (./mptextmp.mp) [38] (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50]
-[51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
-[66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] )
- 
-Here is how much of MetaPost's memory you used:
- 45997 strings using 1024244 characters
- 4974872 bytes of node memory
- 1881 symbolic tokens
- 10i,82n,19p,1211b,5f stack positions out of 16i,98n,20p,1483b,6f
-90 output files written: data-patt.1 .. data.76
-
-
-#################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  31 JUL 2023 11:45
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aaaaaac.dat>><<th_gour_aaaaaae.dat>><<
-th_gour_aaaaaag.dat>><<th_gour_aaaaaai.dat>><<th_gour_aaaaaba.dat>><<th_gour_aa
-aaabc.dat>><<th_gour_aaaaabg.dat>>)
-(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex) (./th_legend.tex))
-(./th_pages.tex)
- 182 numeric registers used out of 32768
- [1] ) 
-Here is how much of TeX's memory you used:
- 411 strings out of 494594
- 5330 string characters out of 6146452
- 179175 words of memory out of 5000000
- 2063 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1416 hyphenation exceptions out of 8191
- 12i,6n,7p,388b,78s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
-.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb>
-Output written on data.pdf (1 page, 481568 bytes).
-PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 933 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
-done
-
-
-############### export maps & scraps selection #################
-M   338.55 map_1@survey ()
-M   344.62 low@trip_1_survey.survey ()
-S   367.87 Sausage_5_19_23-Ap@trip_1_survey.survey ()
-S   357.25 Sausage_5_19_23-Ap1@trip_1_survey.survey ()
-S   347.33 Sausage_5_19_23-Ap2@trip_1_survey.survey ()
-S   334.27 Sausage_5_19_23-Ap3@trip_1_survey.survey ()
-S   330.12 Sausage_5_19_23-Ap4@trip_1_survey.survey ()
-S   330.86 Sausage_5_19_23-Ap5@trip_1_survey.survey ()
-M   332.48 trip_2_map@trip_2_survey.survey ()
-S   332.58 Sausage_7_27_23-1p@trip_2_survey.survey ()
-S   332.37 Sausage_7_27_23-1p1@trip_2_survey.survey ()
-########## end of export maps & scraps selection ###############
-writing output/maps/working/GD79 Sausage Cave Plan (Working).pdf ...
-####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  31 JUL 2023 11:45
-**data.mp
-(/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
-[Warning: scrap outline intersects itself in scrap Sausage_5_19_23-Ap2@trip_1_s
-urvey.survey] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p1@trip_2_s
-urvey.survey] [26] [27] [28] [29] [30] [31] [32] [33] [34]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p@trip_2_su
-rvey.survey]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p@trip_2_su
-rvey.survey] [35] [36] [37] [38] (./mptextmp.mp) [39] [40] [41] [42] [43] [44]
-[45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59]
-[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74]
-[75] [76] )
- 
-Here is how much of MetaPost's memory you used:
- 64728 strings using 1615949 characters
- 5009224 bytes of node memory
- 1881 symbolic tokens
- 9i,82n,20p,1211b,5f stack positions out of 16i,98n,25p,1483b,6f
-90 output files written: data-patt.1 .. data.76
-
-
-#################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  31 JUL 2023 11:45
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map})
-(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
- 168 numeric registers used out of 32768
-
-[1] ) 
-Here is how much of TeX's memory you used:
- 394 strings out of 494594
- 5171 string characters out of 6146452
- 169370 words of memory out of 5000000
- 2049 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1416 hyphenation exceptions out of 8191
- 12i,5n,7p,337b,78s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
-pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
-pfb>
-Output written on data.pdf (1 page, 513201 bytes).
-PDF statistics:
- 284 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 803 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
-done
-
-
-############### export maps & scraps selection #################
-M   338.55 map_1@survey ()
-M   344.62 low@trip_1_survey.survey ()
-S   367.87 Sausage_5_19_23-Ap@trip_1_survey.survey ()
-S   357.25 Sausage_5_19_23-Ap1@trip_1_survey.survey ()
-S   347.33 Sausage_5_19_23-Ap2@trip_1_survey.survey ()
-S   334.27 Sausage_5_19_23-Ap3@trip_1_survey.survey ()
-S   330.12 Sausage_5_19_23-Ap4@trip_1_survey.survey ()
-S   330.86 Sausage_5_19_23-Ap5@trip_1_survey.survey ()
-M   332.48 trip_2_map@trip_2_survey.survey ()
-S   332.58 Sausage_7_27_23-1p@trip_2_survey.survey ()
-S   332.37 Sausage_7_27_23-1p1@trip_2_survey.survey ()
-########## end of export maps & scraps selection ###############
-writing output/maps/working/GD79 Sausage Cave Plan (Working Altitude).pdf ...
-####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  31 JUL 2023 11:45
-**data.mp
-(/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
-(/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
-Preloading the plain mem file, version 1.005) ) (./data.mp
-{randomseed:=42}
- [1] [2] [3] [4]
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
-[Warning: scrap outline intersects itself in scrap Sausage_5_19_23-Ap2@trip_1_s
-urvey.survey] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p1@trip_2_s
-urvey.survey] [26] [27] [28] [29] [30] [31] [32] [33] [34]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p@trip_2_su
-rvey.survey]
-[Warning: scrap outline intersects itself in scrap Sausage_7_27_23-1p@trip_2_su
-rvey.survey] [35] [36] [37] [38] (./mptextmp.mp) [39] (./mptextmp.mp)
-(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
-(./mptextmp.mp) [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51]
-[52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66]
-[67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] )
- 
-Here is how much of MetaPost's memory you used:
- 64892 strings using 1619912 characters
- 5009224 bytes of node memory
- 1882 symbolic tokens
- 10i,82n,20p,1211b,5f stack positions out of 16i,98n,25p,1483b,6f
-91 output files written: data-patt.1 .. data.77
-
-
-#################### end of metapost log file ####################
-converting scraps ... done
-making map ... done
-######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  31 JUL 2023 11:45
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**data.tex
-(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdf
-tex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aaaaaac.dat>><<th_gour_aaaaaae.dat>><<
-th_gour_aaaaaag.dat>><<th_gour_aaaaaai.dat>><<th_gour_aaaaaba.dat>><<th_gour_aa
-aaabc.dat>><<th_gour_aaaaabg.dat>>)
-(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex) (./th_legend.tex))
-(./th_pages.tex)
- 183 numeric registers used out of 32768
- [1] ) 
-Here is how much of TeX's memory you used:
- 412 strings out of 494594
- 5341 string characters out of 6146452
- 175404 words of memory out of 5000000
- 2064 multiletter control sequences out of 15000+600000
- 21229 words of font info for 66 fonts, out of 8000000 for 9000
- 1416 hyphenation exceptions out of 8191
- 12i,6n,7p,388b,78s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
-.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
-.pfb>
-Output written on data.pdf (1 page, 525119 bytes).
-PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 939 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-
-##################### end of pdftex log file #####################
-done
-writing output/leads/GD79 Sausage Cave Leads.html ... done
+writing output/SausageArc ... done
 writing xtherion file ... done
 compilation time: 8 sec
 
@@ -667,10 +232,10 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
 
 ############# CRS transformations chosen by PROJ ###############
   Area of Use (AoU): (-85.612, 35.457) (-85.612, 35.457)
-  [LONG-LAT → LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
-  [LONG-LAT → LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
-  [LONG-LAT → UTM16] AoU: [yes] transformation: [axis order change (2D) + UTM zone 16N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=16 ellps=WGS84] accuracy: [0.000 m]
-  [LONG-LAT → EPSG:4326] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LAT-LONG → LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LAT-LONG → LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LAT-LONG → UTM16] AoU: [yes] transformation: [axis order change (2D) + UTM zone 16N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=16 ellps=WGS84] accuracy: [0.000 m]
+  [LAT-LONG → EPSG:4326] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
   [UTM16 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 16N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=16 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
   [UTM16 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 16N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=16 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
   [EPSG:4326 → UTM16] AoU: [yes] transformation: [axis order change (2D) + UTM zone 16N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=16 ellps=WGS84] accuracy: [0.000 m]

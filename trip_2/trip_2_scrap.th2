@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -440.5 2352.0 2383.0
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -132.0 -442.0 2354.0 2385.0
+##XTHERION## xth_me_area_zoom_to 100
 
 # 2022.07.02 created by TopoDroid v. 6.1.43
 
@@ -388,9 +388,11 @@ line rock-border -close on
   260.19 199.68
 endline
 
-point 469.31 178.20 continuation -text "12T x 1.5W narrow, makes loop, no survey, could b high lead"
+point 507.31 155.2 continuation -text "12T x 1.5W narrow, makes loop, no survey, could b high lead"
 
-point 118.80 -2.48 label -text "20 drop"
+point 118.80 -2.48 height -value [20 ft]
+
+point 494.0 250.0 passage-height -value [1.5 ft]
 
 line ceiling-step
   158.44 92.95
@@ -1369,6 +1371,8 @@ line wall
   smooth off
 endline
 
+point 826.0 932.0 passage-height -value [7 ft]
+
 line wall
   766.57 972.34
   783.78 970.53 795.0 960.58 806.7 955.01
@@ -1865,6 +1869,14 @@ point 210.51 121.33 station -name "S3"
 
 point 248.65 187.73 station -name "S4"
 
+point 621.0 906.0 passage-height -value [18 ft]
+
+point 268.0 832.0 passage-height -value [8 ft]
+
+point 229.0 479.0 passage-height -value [8 ft]
+
+point 296.0 281.0 passage-height -value [4 ft]
+
 point 302.94 233.17 station -name "S5"
 
 point 371.61 349.19 station -name "S6"
@@ -1902,6 +1914,8 @@ point 812.55 1054.64 station -name "S19"
 point 840.89 1091.25 station -name "S20"
 
 point 1023.64 996.52 station -name "S22"
+
+point 110.0 39.0 passage-height -value [10 ft]
 
 endscrap
 
@@ -2034,6 +2048,12 @@ line wall -reverse on -subtype blocks
   1015.55 1210.85 1016.56 1199.88 1013.28 1190.59
   smooth off
 endline
+
+point 983.0 1128.0 passage-height -value [14 ft]
+
+point 1325.0 1342.0 passage-height -value [3 ft]
+
+point 1180.0 1047.0 passage-height -value [4 ft]
 
 line wall
   860.87 1078.45
@@ -3008,6 +3028,8 @@ line rock-border -close on
   1247.03 1169.69
   1234.99 1170.29
 endline
+
+point 1553.0 1363.0 passage-height -value [4 ft]
 
 line section -id xx1 -direction both
   1187.86 1190.69
@@ -4276,11 +4298,15 @@ endline
 
 point 2142.6 1305.46 section -scrap Sausage_7_27_23-xx3
 
+point 1775.0 1840.0 passage-height -value [8 ft]
+
+point 2069.0 2185.0 passage-height -value [6 ft]
+
 line ceiling-step
   1706.04 1810.98
   1726.74 1799.0 1752.95 1797.21 1776.39 1796.79
-  1810.72 1796.19 1849.44 1801.15 1879.23 1819.97
-  1883.49 1822.65 1887.97 1825.26 1892.39 1827.62
+  1810.72 1796.19 1849.44 1801.16 1879.23 1819.97
+  1883.49 1822.66 1887.97 1825.26 1892.39 1827.62
   1899.11 1831.22 1905.52 1835.84 1911.73 1840.24
   1935.42 1857.03 1962.09 1877.7 1980.56 1900.43
   smooth off
@@ -4746,6 +4772,8 @@ point 2015.77 2105.16 station -name "S34"
 point 2062.89 2177.19 station -name "S35"
 
 point 2165.79 2240.13 station -name "S36"
+
+point 1632.0 1534.0 passage-height -value [11 ft]
 
 endscrap
 
