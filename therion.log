@@ -138,7 +138,7 @@ S   323.02 trip_3_scrap_3@trip_3_survey_3.survey ()
 writing output/GD79 Sausage Cave Working Map.pdf ...
 processing projection none ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  16 NOV 2023 11:30
+This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  16 NOV 2023 22:04
 **data.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
@@ -178,7 +178,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  16 NOV 2023 11:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  16 NOV 2023 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -238,7 +238,7 @@ S   323.02 trip_3_scrap_3@trip_3_survey_3.survey ()
 ########## end of export maps & scraps selection ###############
 writing output/DEBUG GD79 Sausage Cave Working Map.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  16 NOV 2023 11:30
+This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  16 NOV 2023 22:04
 **data.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
@@ -279,7 +279,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  16 NOV 2023 11:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdftex 2022.9.8)  16 NOV 2023 22:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -314,9 +314,9 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-writing cave.kml ... done
+writing output/GD 79 Sausage Cave.kml ... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  16 NOV 2023 11:30
+This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  16 NOV 2023 22:04
 **data.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
@@ -325,8 +325,8 @@ Preloading the plain mem file, version 1.005) ) (./data.mp [1] )
 
 
 #################### end of metapost log file ####################
-writing output/SausageArc ... done
-writing output/SausageArc ... ...
+writing output/GD79 Sausage Cave Arc ... done
+writing output/GD 79 Sausage Cave Arc ... ...
 therion: warning -- Sausage_5_19_23-Ap2@trip_1_survey.survey -- multiple scrap outer outlines not supported yet
 ...
 therion: warning -- Sausage_5_19_23-Ap5@trip_1_survey.survey -- multiple scrap outer outlines not supported yet
@@ -338,9 +338,10 @@ therion: warning -- Sausage_7_27_23-1p1@trip_2_survey.survey -- invalid scrap ou
 ....
 therion: warning -- trip_3_scrap_4@trip_3_survey_4.survey -- multiple scrap outer outlines not supported yet
 done
+writing output/GD 79 Sausage Cave ... done
 writing output/GD79 Sausage Cave Model.3d ... done
 writing xtherion file ... done
-compilation time: 5 sec
+compilation time: 6 sec
 
 
 ######################### loop errors ##########################
