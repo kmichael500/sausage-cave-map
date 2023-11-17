@@ -6,10 +6,18 @@ survey survey -title "GD79 Sausage Cave"
 	input "./trip_1/trip_1_survey.th"
 	input "./trip_2/trip_2_survey.th"
 	input "./trip_2/trip_2_ian_survey.th"
+	input "./trip_3/trip_3_survey_1.th"
+	input "./trip_3/trip_3_survey_2.th"
+	input "./trip_3/trip_3_survey_3.th"
+	input "./trip_3/trip_3_survey_4.th"
 	
 	map map_1
 		trip_1_map@trip_1_survey
+		trip_3_map_4@trip_3_survey_4
 		trip_2_map@trip_2_survey
+		trip_3_map_1@trip_3_survey_1
+		trip_3_map_2@trip_3_survey_2
+		trip_3_map_3@trip_3_survey_3
 	endmap
 	
 	centerline
@@ -27,10 +35,23 @@ survey survey -title "GD79 Sausage Cave"
 		
 		equate ent A1@trip_1_survey
 		equate  A25@trip_2_survey A25@trip_1_survey
+		
 		equate A6@trip_2_ian_survey A6@trip_1_survey
 		equate B1@trip_2_ian_survey B1@trip_1_survey
+		
+		equate S28@trip_3_survey_1 S28@trip_2_survey
+		equate S29@trip_3_survey_2 S29@trip_2_survey
+		equate S37@trip_3_survey_3 S37@trip_2_survey
+		equate S11@trip_3_survey_4 S11@trip_2_survey
+		
+		
 	endcenterline
 	
+	# TODO: sorta joins three times so need to join by id
+	join trip_3_scrap_1@trip_3_survey_1 Sausage_7_27_23-1p1@trip_2_survey
+	
+	join trip_3_scrap_3@trip_3_survey_3 Sausage_7_27_23-1p1@trip_2_survey
+	join trip_3_scrap_2@trip_3_survey_2 Sausage_7_27_23-1p1@trip_2_survey
 	
 endsurvey
 

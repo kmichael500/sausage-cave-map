@@ -56,7 +56,9 @@ endlayout
 
                           # PDF Map Exports #
 
-export map -projection plan -layout workingPlan -o "output/WORKING_Plan.pdf"
+export map -projection plan -layout workingPlan -o "output/GD79 Sausage Cave Working Map.pdf"
+export map -projection plan -layout debug -o "output/DEBUG GD79 Sausage Cave Working Map.pdf"
+
 #export map -projection plan -layout cleanPlan -o "output/Clean_Plan.pdf"
 
 #export map -projection extended -layout workingProf -o "output/WORKING_Prof.pdf"
